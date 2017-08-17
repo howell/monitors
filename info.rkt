@@ -1,6 +1,7 @@
 #lang info
 (define collection "monitors")
 (define deps '("base"
+               "data-lib"
                "rackunit-lib"))
 (define build-deps '("scribble-lib" "racket-doc"))
 (define scribblings '(("scribblings/monitors.scrbl" ())))
